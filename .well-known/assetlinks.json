@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.polarfi.polarapp",
+      "sha256_cert_fingerprints": [
+        "2E:9B:9B:89:E2:19:8E:AD:AC:81:67:A1:83:02:FD:32:34:66:B4:C0:78:E6:D1:67:2D:3F:E1:31:22:AB:C5:5C"
+      ]
+    }
+  }
+]
