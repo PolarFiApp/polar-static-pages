@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function isMobile() {
+      return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    }
+
+    function openAppOrRedirect() {
+      if (isMobile()) {
+        // TODO: When app is live, give user option to go to website or go straight to App Store
+        window.location = "https://www.polarfi.com";
+      } else {
+        // TODO: When app is live, direct to QR code to download app
+        window.location = "https://www.polarfi.com";
+      }
+    }
+    window.onload = openAppOrRedirect;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html> 
